@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>App</title>
-  <style>
-    body {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
   background: #282c34;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -124,27 +120,3 @@ button {
     opacity: 1;
   }
 }
-</style>
-
-  </head>
-  <body>
-
-    <header>
-      <h1>My personal page</h1>
-      <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
-        <a href="/info">Info</a>
-        <a href="/history">History</a>
-      </nav>
-    </header>
-
-    {{{ body }}}
-
-    <footer>
-      <p>All rights reserved<p>
-    </footer>
-
-  </body>
-</html>
